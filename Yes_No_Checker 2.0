@@ -13,8 +13,8 @@ def yes_no(question):
     print('Please answer Yes/No')
 
 #Routine
-show_instrustions = yes_no('Have you played this game before?')
-print('You choose {}'.format(show_instrustions))
+show_instructions = yes_no('Have you played this game before?')
+print('You choose {}'.format(show_instructions))
 print()
 having_fun = yes_no('Are you having fun?')
 print('You said {} to having fun'.format(having_fun))
